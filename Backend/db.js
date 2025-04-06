@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongouri ="mongodb+srv://atharvareddy145:QplC15pxjFt2FH6K@cluster0.ldhq5p6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const mongouri =process.env.PORT
 const connectToMongo =async ()=>{
     mongoose.connect(mongouri,()=>{
      
