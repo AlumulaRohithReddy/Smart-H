@@ -21,7 +21,7 @@ function dothis(){
 dispatch({ type: 'UPDATE_AVALUE', payload: true });
  }
 const gethistory=async (e)=>{
-        const response=await fetch(`https://smart-h-backend.onrender.com/api/g/gatetoken`,{
+        const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/g/gatetoken`,{
             method:'get',
             headers:{
                 'Content-Type':'application/json',
@@ -178,7 +178,7 @@ const sendrq=async(props)=>{
   let fdatet=`${idate.getFullYear()}-${idatemonth}-${idateday}T${idatehours}:${idatemin}`
   console.log(fdatet,props)
   if(whatid==0){
-    const response=await fetch(`https://smart-h-backend.onrender.com/api/ud/updateintime`,{
+    const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/ud/updateintime`,{
       method:'POST',
       headers:{
           'Content-Type':'application/json',
@@ -200,7 +200,7 @@ const sendrq=async(props)=>{
   }
   }
   else{
-  const response=await fetch(`https://smart-h-backend.onrender.com/api/ud/updateouttime`,{
+  const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/ud/updateouttime`,{
           method:'POST',
           headers:{
               'Content-Type':'application/json',

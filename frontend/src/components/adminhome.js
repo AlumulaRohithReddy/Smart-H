@@ -33,7 +33,7 @@ export const Adminhome = () => {
     const [strength,changestrength]=useState(200)
 
     const getalldata = async (e) => {
-        const response = await fetch(`https://smart-h-backend.onrender.com/api/ad/getallusers`, {
+        const response = await fetch(`https://smart-h-backend-k5oz.onrender.com/api/ad/getallusers`, {
             method: 'get',
             headers: {
                 'Content-Type': 'application/json',

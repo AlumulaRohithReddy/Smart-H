@@ -7,7 +7,7 @@ export const Admincomplains = () => {
 
   const fetchComplaints = async () => {
     try {
-      const res = await fetch('https://smart-h-backend.onrender.com/api/c/getAllCom', {
+      const res = await fetch('https://smart-h-backend-k5oz.onrender.com/api/c/getAllCom', {
         method: 'GET',
         credentials: 'include',
       });

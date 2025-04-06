@@ -32,7 +32,7 @@ export const Signin = (props) => {
     let iemail=email_input
     let ipassword=password_input
     e.preventDefault();
-    const response=await fetch(`https://smart-h-backend.onrender.com/api/auth/login`,{
+    const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/auth/login`,{
         method:'POST',
         headers:{
             'Content-Type':'application/json'

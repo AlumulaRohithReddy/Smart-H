@@ -25,7 +25,7 @@ const handlesubmit =async (e)=>{
     const password=password_input
     const mobile=mobile_input
     e.preventDefault();
-    const response=await fetch(`https://smart-h-backend.onrender.com/api/auth/createuser`,{
+    const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/auth/createuser`,{
         method:'POST',
         headers:{
             'Content-Type':'application/json'

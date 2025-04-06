@@ -34,7 +34,7 @@ export const Temp = () => {
       const title=document.getElementById('email').value
       const message=document.getElementById('message').value
       console.log(message,title)
-      const response=await fetch(`https://smart-h-backend.onrender.com/api/f/feedback`,{
+      const response=await fetch(`https://smart-h-backend-k5oz.onrender.com/api/f/feedback`,{
           method:'POST',
           headers:{
               'Content-Type':'application/json',

@@ -22,7 +22,7 @@ const { state} = useContext(noteContext);
     setLoading(true);
 
     try {
-      const response = await fetch(`https://smart-h-backend.onrender.com/api/request-payment`, {
+      const response = await fetch(`https://smart-h-backend-k5oz.onrender.com/api/request-payment`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
